@@ -2,7 +2,7 @@ From a previously private repository
 
 # Spotify Connect
 
-Welcome to the central repository for Spotify Connect, the Week 2 Project created for Forge's Launch Program in the Software Engineering Track in 2023.
+Welcome to the central repository for Spotify Connect.
 
 ## About
 
