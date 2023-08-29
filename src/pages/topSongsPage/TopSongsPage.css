@@ -1,0 +1,90 @@
+body {
+  background-color: var(--cream);
+  overflow-y: auto;
+}
+
+.headerColor {
+  color: var(--dark-green);
+}
+
+.topSongsPage {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-family: var(--font-family);
+}
+
+.cardGrid {
+  padding: 20px 0;
+}
+
+.topSongsCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-green);
+}
+
+.cardMediaContainer {
+  flex: 1;
+  padding: 12px;
+}
+
+.cardMedia {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  object-fit: cover;
+}
+
+.cardContentContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.songName {
+  color: var(--cream);
+  text-align: center;
+  font-weight: bold;
+}
+
+.textColor {
+  color: var(--cream);
+  text-align: center;
+}
+
+.tableRow {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.topSongsPage-artistundersong {
+  display: none;
+}
+
+@media only screen and (width < 490px) {
+  .topSongsPage-makemedisappearalbum,
+  .topSongsPage-makemedisappearpopularity,
+  .topSongsPage-makemedisappearartist {
+    display: none !important;
+  }
+
+  .topSongsPage-artistundersong {
+    display: block;
+  }
+}
+
+@media only screen and (width < 700px) {
+  .topSongsPage-makemedisappearalbum,
+  .topSongsPage-makemedisappearpopularity {
+    display: none !important;
+  }
+}
+
+@media only screen and (width < 950px) {
+  .topSongsPage-makemedisappearpopularity {
+    display: none !important;
+  }
+}

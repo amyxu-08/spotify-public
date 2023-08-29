@@ -1,0 +1,118 @@
+.chatPage {
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+
+.chatPage-left {
+    height: 100%;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+    width: 15rem;
+}
+.chatPage-left-image-img {
+    border-radius: 50%;
+
+}
+.chatPage-left-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatPage-left-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.chatPage-left-info-name {
+    color: var(--cream);
+}
+
+.chatPage-left-info-email {
+    color: var(--cream);
+}
+
+.chatPage-right {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+    
+}
+
+.chatPage-right-header {
+    color: var(--black);
+}
+
+.chatPage-right-chatsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.chatPage-right-headerChatsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: flex-start;
+    overflow-y:scroll;
+}
+
+.chatPage-right-input {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+}
+
+
+@media only screen and (width < 890px) {
+    .chatPage {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow: auto;
+        padding-bottom: 3rem;
+    }
+
+    .chatPage-left {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (width < 500px) {
+    .chatPage-right-body-item {
+        flex-direction: column;
+
+    }
+    .chatPage-right {
+        height: auto;
+    }
+}

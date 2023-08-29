@@ -1,0 +1,89 @@
+body {
+  background-color: var(--cream);
+  overflow-y: auto;
+}
+
+.headerColor {
+  color: var(--dark-green);
+}
+
+.likedSongsPage {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-family: var(--font-family);
+}
+
+.cardGrid {
+  padding: 20px 0;
+}
+
+.likedSongCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-green);
+}
+
+.cardMediaContainer {
+  flex: 1;
+  padding: 12px;
+}
+
+.cardMedia {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  object-fit: cover;
+}
+
+.cardContentContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.songName {
+  color: var(--cream);
+  text-align: center;
+  font-weight: bold;
+}
+
+.textColor {
+  color: var(--cream);
+  text-align: center;
+}
+
+.tableRow {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.likedSongsPage-artistundersong {
+  display: none;
+}
+
+@media only screen and (width < 490px) {
+  .likedSongsPage-makemedisappearalbum,
+  .likedSongsPage-makemedisappeardate,
+  .likedSongsPage-makemedisappearartist {
+    display: none !important;
+  }
+  .likedSongsPage-artistundersong {
+    display: block;
+  }
+}
+
+@media only screen and (width < 700px) {
+  .likedSongsPage-makemedisappearalbum,
+  .likedSongsPage-makemedisappeardate {
+    display: none !important;
+  }
+}
+
+@media only screen and (width < 950px) {
+  .likedSongsPage-makemedisappeardate {
+    display: none !important;
+  }
+}

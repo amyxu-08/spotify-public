@@ -1,0 +1,86 @@
+body {
+  background-color: var(--cream);
+  overflow-y: auto;
+}
+
+.headerColor {
+  color: var(--dark-green);
+}
+
+.discoveryPage {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-family: var(--font-family);
+}
+
+.cardGrid {
+  padding: 20px 0;
+}
+
+.discoveryCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-green);
+}
+
+.cardMediaContainer {
+  flex: 1;
+  padding: 12px;
+}
+
+.cardMedia {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  object-fit: cover;
+}
+
+.cardContentContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.textColor {
+  color: var(--cream);
+  text-align: center;
+}
+
+.buttonTextColor {
+  color: var(--dark-green);
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #00000050;
+}
+
+.infoTextColor {
+  color: var(--cream);
+}
+
+.headerTextColor {
+  color: var(--dark-green);
+  border-radius: 6px;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

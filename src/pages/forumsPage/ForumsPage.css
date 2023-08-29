@@ -1,0 +1,73 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.modal-content {
+  background-color: #2196f3;
+  padding: 16px;
+  width: 200px;
+  height: 300px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.close-button {
+  align-self: right;
+}
+
+.center-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 75%;
+}
+
+@media only screen and (width < 1000px) {
+  .center-div {
+    flex-direction: column;
+    min-width: 450px;
+  }
+}
+
+.title-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.all-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-textfield .MuiInputBase-input {
+  color: #fefae0;
+}
+
+.custom-textfield .MuiFormLabel-root {
+  color: #fefae0;
+}
+
+.custom-textfield .MuiOutlinedInput-root {
+  & fieldset {
+    border-color: #fefae0;
+  }
+
+  &:hover fieldset {
+    border-color: #fefae0;
+  }
+
+  &.Mui-focused fieldset {
+    border-color: #fefae0;
+  }
+}

@@ -1,0 +1,2 @@
+// Utils file for various functions. Functions in this folder should be used across the project.
+// If you have a component that is specific to a page, component, hook, etc. then it should be placed in that folder.
