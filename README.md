@@ -116,7 +116,7 @@ With this configuration, all of the features will work as intended.
 ### Credits
 
 - [Jacob Wald](https://www.linkedin.com/in/jacob-wald-a9107721b/) - Liked Songs, Top Songs, Top Artists, Discover Page
-- [Amy Xu](https://www.linkedin.com/in/amyxu08/) - Backend, Spotify Authentication
+- [Amy Xu](https://www.linkedin.com/in/amyxu08/) - Backend, Spotify Authentication, Forums
 - [Jenny Yu](https://www.linkedin.com/in/jeongyeonjyu/) - Forums, Backend
 - [Charlie Meyer](https://charliemeyer.xyz) - Authentication, Chats, Profile Page
 
